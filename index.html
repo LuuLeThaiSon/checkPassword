@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+</body>
+</html>
+
+<script>
+     
+     const passW = "TheMaster";
+
+     let account = prompt("Input account: ");
+
+     if (account == "admin") {
+          let ipPW = prompt("Input password");
+          if (ipPW == passW) {
+               alert("Welcome");
+          } else if(ipPW == "null") {
+               alert("Canceled");
+          } else {
+               alert("Wrong password")
+          }
+     } else if (account == "null") {
+          alert("canceld");
+     } else {
+          alert("I don’t know you")
+     }
+</script>
